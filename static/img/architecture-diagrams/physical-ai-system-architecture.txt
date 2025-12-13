@@ -1,0 +1,33 @@
+Physical AI & Humanoid Robotics System Architecture
+
+┌─────────────────────────────────────────────────────────────────┐
+│                    ROS 2 Communication Layer                    │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────┐ │
+│  │Voice Control│  │Perception   │  │Navigation   │  │Manipula-│ │
+│  │Pipeline     │  │Pipeline     │  │Pipeline     │  │tion     │ │
+│  │             │  │             │  │             │  │Pipeline │ │
+│  └─────────────┘  └─────────────┘  └─────────────┘  └─────────┘ │
+├─────────────────────────────────────────────────────────────────┤
+│                    AI Integration Layer                        │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
+│  │NVIDIA Isaac │  │OpenAI APIs  │  │Computer     │             │
+│  │Integration  │  │Integration  │  │Vision       │             │
+│  │             │  │             │  │             │             │
+│  └─────────────┘  └─────────────┘  └─────────────┘             │
+├─────────────────────────────────────────────────────────────────┤
+│                   Simulation Environment                       │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
+│  │Gazebo       │  │Unity        │  │Digital Twin │             │
+│  │Simulation   │  │Simulation   │  │Environment  │             │
+│  │             │  │             │  │             │             │
+│  └─────────────┘  └─────────────┘  └─────────────┘             │
+└─────────────────────────────────────────────────────────────────┘
+
+Core Modules:
+1. ROS 2 - Communication backbone
+2. Simulation - Digital twin environment
+3. AI Integration - Perception, navigation, decision making
+4. VLA (Voice-Language-Action) - Human-robot interaction

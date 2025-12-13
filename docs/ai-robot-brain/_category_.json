@@ -1,0 +1,8 @@
+{
+  "label": "AI-Robot Brain",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "AI integration using NVIDIA Isaac"
+  }
+}

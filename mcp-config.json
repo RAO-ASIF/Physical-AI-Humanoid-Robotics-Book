@@ -1,0 +1,18 @@
+{
+  "context7": {
+    "serverUrl": "http://localhost:3001",
+    "apiVersion": "v1",
+    "timeout": 30000,
+    "retries": 3
+  },
+  "githubMcp": {
+    "serverUrl": "https://github-mcp-server.example.com",
+    "apiVersion": "v1",
+    "timeout": 30000,
+    "retries": 3
+  },
+  "schemas": {
+    "context7": "context7-file-operation-v1",
+    "githubMcp": "github-operation-v1"
+  }
+}

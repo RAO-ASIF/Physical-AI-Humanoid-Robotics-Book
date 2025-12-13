@@ -1,0 +1,1 @@
+![System Architecture](/img/architecture-diagrams/physical-ai-system-architecture.png)
