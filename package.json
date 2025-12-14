@@ -4,12 +4,13 @@
   "description": "Physical AI & Humanoid Robotics System - Simulation-first, extensible to real hardware",
   "main": "src/capstone-project/complete_implementation/integrated_robot_system.py",
   "scripts": {
-    "start": "node -e \"console.log('Physical AI & Humanoid Robotics System'); console.log(); console.log('To run the full system, ensure ROS 2 (Humble/Iron) and rclpy are installed, then run:'); console.log('python src/capstone-project/complete_implementation/integrated_robot_system.py'); console.log(); console.log('For development documentation, use: npm run docs:dev'); console.log();\"",
-    "start:robot": "python src/capstone-project/complete_implementation/integrated_robot_system.py",
-    "docs:dev": "docusaurus start",
-    "docs:build": "docusaurus build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node -e \"console.log('Physical AI & Humanoid Robotics System'); console.log(); console.log('To run the full system, ensure ROS 2 (Humble/Iron) and rclpy are installed, then run:'); console.log('python src/capstone-project/complete_implementation/integrated_robot_system.py'); console.log(); console.log('For development documentation, use: npm run docs:dev'); console.log();\"",
+  "start:robot": "python src/capstone-project/complete_implementation/integrated_robot_system.py",
+  "docs:dev": "docusaurus start",
+  "docs:build": "docusaurus build",
+  "build": "npm run docs:build",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [
     "robotics",
     "ros2",
