@@ -56,6 +56,7 @@ description: "Task list for Physical AI & Humanoid Robotics Capstone Book"
 
 **Independent Test**: Can be fully tested by reading through the complete book and verifying that all four core modules (ROS 2, Digital Twin, AI-Robot Brain, VLA) are covered with practical examples and that the capstone project demonstrates all required concepts
 
+
 ### Tests for User Story 1 (OPTIONAL - only if tests requested) ⚠️
 
 - [ ] T012 [P] [US1] Create test scenarios for module completion in tests/module-completion/
