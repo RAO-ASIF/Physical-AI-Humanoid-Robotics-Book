@@ -9,7 +9,7 @@ This document provides an overview of the system architecture for the Physical A
 
 ## Architecture Diagram
 
-![System Architecture](/img/architecture-diagrams/physical-ai-system-architecture.txt)
+[System Architecture](/img/architecture-diagrams/physical-ai-system-architecture.txt)
 
 ## Core Components
 
